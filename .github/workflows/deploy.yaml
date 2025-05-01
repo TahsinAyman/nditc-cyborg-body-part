@@ -18,6 +18,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: bitovi/github-actions-react-to-github-pages@v1.2.0
+        uses: bitovi/github-actions-react-to-github-pages@v1.2.4
         with:       
           path: dist
